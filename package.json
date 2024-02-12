@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "ts-node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/IrinaTsoi312/crud-api#readme",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }

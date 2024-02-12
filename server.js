@@ -1,18 +1,22 @@
 import http from "http";
+import { getData } from "./src/methods/GET";
+import { postData } from "./src/methods/POST";
+import { putData } from "./src/methods/PUT";
+import { deleteData } from "./src/methods/DELETE";
 
 const server = http.createServer((req, res) => {
   switch (req.method) {
     case "GET":
-      getReq(req, res);
+      getData(req, res, users);
       break;
     case "POST":
-      postReq(req, res);
+      postData(req, res);
       break;
     case "PUT":
-      putReq(req, res);
+      putData(req, res);
       break;
     case "DELETE":
-      deleteReq(req, res);
+      deleteData(req, res);
       break;
     default:
       res.statusCode = 404;

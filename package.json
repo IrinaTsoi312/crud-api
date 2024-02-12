@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/IrinaTsoi312/crud-api/issues"
   },
-  "homepage": "https://github.com/IrinaTsoi312/crud-api#readme"
+  "homepage": "https://github.com/IrinaTsoi312/crud-api#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }

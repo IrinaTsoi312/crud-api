@@ -1,0 +1,32 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "ts-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrinaTsoi312/crud-api.git"
+  },
+  "keywords": [
+    "crud",
+    "api"
+  ],
+  "author": "Irina Tsoi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IrinaTsoi312/crud-api/issues"
+  },
+  "homepage": "https://github.com/IrinaTsoi312/crud-api#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
